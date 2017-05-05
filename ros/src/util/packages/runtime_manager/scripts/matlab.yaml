@@ -1,0 +1,22 @@
+exec_time :
+  localization :
+    /ndt_stat.ndt_stat.exe_time :
+  detection :
+    /topic1 :
+    /topic2 :
+
+buttons :
+  matlab_exe :
+    desc: MATLAB Start
+    run : matlab -desktop &
+
+  simulink_exe :
+    desc: Simulink Start
+    run : matlab -desktop -r simulink &
+
+  rqt_graph_autoware :
+    desc: rqt_graph for code generation
+    run : rosrun rqt_graph_autoware rqt_graph_autoware
+
+gui_chars_limit : 10000
+gui_update_interval_ms : 100

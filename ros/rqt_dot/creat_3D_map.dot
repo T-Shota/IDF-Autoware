@@ -1,0 +1,227 @@
+digraph graphname {
+	graph [bb="0,0,1154,347",
+		compound=True,
+		rank=same,
+		rankdir=LR,
+		ranksep=0.2
+	];
+	node [label="\N"];
+	subgraph cluster_config {
+		graph [bb="566,120,732,249",
+			compound=True,
+			label=config,
+			lheight=0.21,
+			lp="649,237.5",
+			lwidth=0.49,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__config_voxel_grid_filter		 [URL=topic_3A_config_voxel_grid_filter,
+			height=0.5,
+			label="/config/voxel_grid_filter",
+			pos="649,200",
+			shape=box,
+			width=2.0833];
+		t__config_ndt_mapping		 [URL=topic_3A_config_ndt_mapping,
+			height=0.5,
+			label="/config/ndt_mapping",
+			pos="649,146",
+			shape=box,
+			width=1.8194];
+	}
+	subgraph cluster_velodyne_nodelet_manager {
+		graph [bb="8,257,511,332",
+			compound=True,
+			label=velodyne_nodelet_manager,
+			lheight=0.21,
+			lp="259.5,320.5",
+			lwidth=2.10,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__velodyne_nodelet_manager_bond		 [URL=topic_3A_velodyne_nodelet_manager_bond,
+			height=0.5,
+			label="/velodyne_nodelet_manager/bond",
+			pos="117,283",
+			shape=box,
+			width=2.7917];
+		n__velodyne_nodelet_manager		 [URL=_velodyne_nodelet_manager,
+			height=0.5,
+			label="/velodyne_nodelet_manager",
+			pos="392,283",
+			shape=ellipse,
+			width=3.0692];
+		t__velodyne_nodelet_manager_bond -> n__velodyne_nodelet_manager		 [penwidth=1,
+			pos="e,288.8,276.44 217.72,276.47 237.52,276.23 258.45,276.18 278.64,276.34"];
+		n__velodyne_nodelet_manager -> t__velodyne_nodelet_manager_bond		 [penwidth=1,
+			pos="e,217.72,289.53 288.8,289.56 268.91,289.79 247.97,289.81 227.84,289.63"];
+	}
+	subgraph cluster_velodyne_nodelet {
+		graph [bb="308,91,476,166",
+			compound=True,
+			label=velodyne_nodelet,
+			lheight=0.21,
+			lp="392,154.5",
+			lwidth=1.35,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__velodyne_nodelet		 [URL=_velodyne_nodelet,
+			height=0.5,
+			label="/velodyne_nodelet",
+			pos="392,117",
+			shape=ellipse,
+			width=2.0943];
+	}
+	subgraph cluster_voxel_grid_filter {
+		graph [bb="747,236,909,311",
+			compound=True,
+			label=voxel_grid_filter,
+			lheight=0.21,
+			lp="828,299.5",
+			lwidth=1.28,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__voxel_grid_filter		 [URL=_voxel_grid_filter,
+			height=0.5,
+			label="/voxel_grid_filter",
+			pos="828,262",
+			shape=ellipse,
+			width=2.022];
+	}
+	subgraph cluster_driver_nodelet {
+		graph [bb="319,8,465,83",
+			compound=True,
+			label=driver_nodelet,
+			lheight=0.21,
+			lp="392,71.5",
+			lwidth=1.10,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__driver_nodelet		 [URL=_driver_nodelet,
+			height=0.5,
+			label="/driver_nodelet",
+			pos="392,34",
+			shape=ellipse,
+			width=1.7873];
+	}
+	subgraph cluster_runime_manager_9053_1484027094942 {
+		graph [bb="226,174,558,249",
+			compound=True,
+			label=runime_manager_9053_1484027094942,
+			lheight=0.21,
+			lp="392,237.5",
+			lwidth=3.08,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__runime_manager_9053_1484027094942		 [URL=_runime_manager_9053_1484027094942,
+			height=0.5,
+			label="/runime_manager_9053_1484027094942",
+			pos="392,200",
+			shape=ellipse,
+			width=4.3691];
+	}
+	subgraph cluster_queue_counter {
+		graph [bb="1000,231,1146,306",
+			compound=True,
+			label=queue_counter,
+			lheight=0.21,
+			lp="1073,294.5",
+			lwidth=1.11,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__queue_counter		 [URL=_queue_counter,
+			height=0.5,
+			label="/queue_counter",
+			pos="1073,257",
+			shape=ellipse,
+			width=1.8054];
+	}
+	subgraph cluster_lazy_ndt_mapping {
+		graph [bb="740,153,916,228",
+			compound=True,
+			label=lazy_ndt_mapping,
+			lheight=0.21,
+			lp="828,216.5",
+			lwidth=1.42,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__lazy_ndt_mapping		 [URL=_lazy_ndt_mapping,
+			height=0.5,
+			label="/lazy_ndt_mapping",
+			pos="828,179",
+			shape=ellipse,
+			width=2.2026];
+	}
+	t__velodyne_packets	 [URL=topic_3A_velodyne_packets,
+		height=0.5,
+		label="/velodyne_packets",
+		pos="649,275",
+		shape=box,
+		width=1.625];
+	t__velodyne_packets -> n__velodyne_nodelet_manager	 [penwidth=1,
+		pos="e,500.77,286.3 590.26,282.57 566.68,284.06 538.49,285.27 510.9,286.03"];
+	t__config_voxel_grid_filter -> n__voxel_grid_filter	 [penwidth=1,
+		pos="e,784.49,247.43 700.43,218.02 713.32,222.61 727.17,227.51 740,232 751.31,235.96 763.46,240.18 774.99,244.16"];
+	t__config_ndt_mapping -> n__lazy_ndt_mapping	 [penwidth=1,
+		pos="e,766.06,167.64 714.65,158.05 728.16,160.57 742.47,163.24 756.19,165.8"];
+	t__ndt_map	 [URL=topic_3A_ndt_map,
+		height=0.5,
+		label="/ndt_map",
+		pos="958,231",
+		shape=box,
+		width=0.94444];
+	t__ndt_map -> n__queue_counter	 [penwidth=1,
+		pos="e,1022.2,245.54 992.29,238.66 998.59,240.11 1005.4,241.67 1012.2,243.24"];
+	t__velodyne_nodelet_manager_bond -> n__velodyne_nodelet	 [penwidth=1,
+		pos="e,348.53,131.79 135.92,264.64 155.39,241.38 188.74,202.33 226,179 260.58,157.35 304.83,143.76 338.8,134.44"];
+	t__velodyne_nodelet_manager_bond -> n__driver_nodelet	 [penwidth=1,
+		pos="e,345.67,46.565 124.67,264.72 137.47,227.27 169.32,142.68 226,96 257.18,70.321 301.03,56.999 335.69,48.838"];
+	n__velodyne_nodelet_manager -> t__velodyne_packets	 [penwidth=1,
+		pos="e,590.3,271.05 486.14,273.55 517.19,272.16 551.17,271.26 579.95,271.08"];
+	t__points_raw	 [URL=topic_3A_points_raw,
+		height=0.5,
+		label="/points_raw",
+		pos="649,329",
+		shape=box,
+		width=1.1111];
+	n__velodyne_nodelet_manager -> t__points_raw	 [penwidth=1,
+		pos="e,608.73,321.92 466.76,296.31 509.11,303.95 561.14,313.33 598.58,320.08"];
+	t__points_raw -> n__voxel_grid_filter	 [penwidth=1,
+		pos="e,791.63,277.69 689.02,316.86 702.69,312.42 718.1,307.2 732,302 748.52,295.82 766.39,288.47 782.14,281.76"];
+	t__points_raw -> n__queue_counter	 [penwidth=1,
+		pos="e,1039.4,272.45 689.24,330.61 741.55,331.93 836.75,331.42 916,315 956,306.71 999.4,289.89 1030.2,276.49"];
+	t__points_raw -> n__lazy_ndt_mapping	 [penwidth=1,
+		pos="e,785.96,194.37 689.01,325.24 704.69,321.69 721.5,314.9 732,302 751.77,277.72 723.14,258.38 740,232 748.91,218.05 762.94,207.22 777.14,199.09"];
+	n__velodyne_nodelet -> t__velodyne_nodelet_manager_bond	 [penwidth=1,
+		pos="e,126.86,264.9 320.63,123.12 290.03,130.63 254.69,143.04 226,161 186.36,185.82 151.14,228.44 132.36,256.39"];
+	n__driver_nodelet -> t__velodyne_nodelet_manager_bond	 [penwidth=1,
+		pos="e,121.76,264.71 327.6,34.846 294.41,41.105 254.8,54.281 226,78 168.95,124.99 137.05,210.39 124.42,254.85"];
+	n__runime_manager_9053_1484027094942 -> t__config_voxel_grid_filter	 [penwidth=1,
+		pos="e,573.78,200 549.41,200 554.24,200 559.01,200 563.69,200"];
+	n__runime_manager_9053_1484027094942 -> t__config_ndt_mapping	 [penwidth=1,
+		pos="e,583.26,163.93 481.89,185.2 506.62,180.71 533.42,175.5 558,170 563,168.88 568.14,167.67 573.31,166.41"];
+	n__lazy_ndt_mapping -> t__ndt_map	 [penwidth=1,
+		pos="e,924,217.59 867.75,194.74 882.48,200.73 899.33,207.57 914.4,213.69"];
+}

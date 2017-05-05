@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+   <name>rosjava_build</name>
+   <version>1.0</version>
+   <build_depend>rosjava_build_tools</build_depend>
+   <build_depend>rosjava_bootstrap</build_depend><!-- Add the packages you want to build on the following lines --><!-- e.g. <build_depend>std_msgs</build_depend> -->
+   <build_depend>fake_drivers</build_depend>
+   <build_depend>graph_tools</build_depend>
+   <build_depend>map_tools</build_depend>
+   <build_depend>model_publisher</build_depend>
+   <build_depend>requirements_version_checker</build_depend>
+   <build_depend>runtime_manager</build_depend>
+   <build_depend>sample_data</build_depend>
+   <build_depend>sound_player</build_depend>
+</package>

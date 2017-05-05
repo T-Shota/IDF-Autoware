@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Version: 0.0.0
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: requirements_version_checker
+Bnd-LastModified: 1487307762000
+Created-By: 1.7.0_60 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.ros.rosjava_messages.requirements_version_che
+ cker
+

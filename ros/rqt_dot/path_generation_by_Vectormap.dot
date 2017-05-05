@@ -1,0 +1,92 @@
+digraph graphname {
+	graph [bb="0,0,527,228",
+		compound=True,
+		rank=same,
+		rankdir=LR,
+		ranksep=0.2
+	];
+	node [label="\N"];
+	subgraph cluster_vector_map_info {
+		graph [bb="93,8,255,137",
+			compound=True,
+			label=vector_map_info,
+			lheight=0.21,
+			lp="174,125.5",
+			lwidth=1.31,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		t__vector_map_info_point		 [URL=topic_3A_vector_map_info_point,
+			height=0.5,
+			label="/vector_map_info/point",
+			pos="174,88",
+			shape=box,
+			width=2.0139];
+		t__vector_map_info_lane		 [URL=topic_3A_vector_map_info_lane,
+			height=0.5,
+			label="/vector_map_info/lane",
+			pos="174,34",
+			shape=box,
+			width=1.9444];
+	}
+	subgraph cluster_feature_projection {
+		graph [compound=True,
+			label=feature_projection,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+	}
+	subgraph cluster_runime_manager_1070_1484032379684 {
+		graph [bb="8,145,340,220",
+			compound=True,
+			label=runime_manager_1070_1484032379684,
+			lheight=0.21,
+			lp="174,208.5",
+			lwidth=3.08,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__runime_manager_1070_1484032379684		 [URL=_runime_manager_1070_1484032379684,
+			height=0.5,
+			label="/runime_manager_1070_1484032379684",
+			pos="174,171",
+			shape=ellipse,
+			width=4.3691];
+	}
+	subgraph cluster_waypoint_clicker {
+		graph [bb="355,62,519,137",
+			compound=True,
+			label=waypoint_clicker,
+			lheight=0.21,
+			lp="437,125.5",
+			lwidth=1.31,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__waypoint_clicker		 [URL=_waypoint_clicker,
+			height=0.5,
+			label="/waypoint_clicker",
+			pos="437,88",
+			shape=ellipse,
+			width=2.0582];
+	}
+	t__vector_map_info_point -> n__waypoint_clicker	 [penwidth=1,
+		pos="e,362.68,88 246.66,88 279.35,88 318.27,88 352.29,88"];
+	n__feature_projection	 [height=0.5,
+		pos="437,34",
+		width=2.4553];
+	t__vector_map_info_point -> n__feature_projection	 [penwidth=1,
+		pos="e,381.31,48.07 246.71,79.397 275.92,75.085 309.85,69.037 340,61 343.67,60.022 344.39,59.167 348,58 355.61,55.542 363.63,53.121 371.62,50.817"];
+	t__vector_map_info_lane -> n__waypoint_clicker	 [penwidth=1,
+		pos="e,389.88,73.898 244.37,43.585 273.98,48.132 308.83,54.089 340,61 353.07,63.897 366.99,67.506 380.07,71.133"];
+	t__vector_map_info_lane -> n__feature_projection	 [penwidth=1,
+		pos="e,348.15,34 244.26,34 273.01,34 306.89,34 338.12,34"];
+}

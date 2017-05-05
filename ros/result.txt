@@ -1,0 +1,39 @@
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/shota/Autoware/ros/src/util/packages/runtime_manager/scripts/runtime_manager_dialog.py", line 1696, in nodes_echo_show_th
+    tc = self.text_ctrl_nodes_echo
+AttributeError: 'MyFrame' object has no attribute 'text_ctrl_nodes_echo'
+
+loading param.yaml
+loading qs.yaml
+loading setup.yaml
+['rosparam', 'set', 'tf_x', '1.2']
+['rosparam', 'set', 'tf_y', '0.0']
+['rosparam', 'set', 'tf_z', '2.0']
+['rosparam', 'set', 'tf_yaw', '0.0']
+['rosparam', 'set', 'tf_pitch', '0.0']
+['rosparam', 'set', 'tf_roll', '0.0']
+['rosparam', 'set', 'localizer', 'velodyne']
+loading map.yaml
+loading sensing.yaml
+loading computing.yaml
+loading interface.yaml
+loading data.yaml
+loading simulation.yaml
+['rosparam', 'set', '/use_sim_time', 'false']
+loading status.yaml
+loading matlab.yaml
+loading matlab.yaml
+loading topics.yaml
+Traceback (most recent call last):
+  File "/home/shota/Autoware/ros/src/util/packages/runtime_manager/scripts/runtime_manager_dialog.py", line 532, in choose_folder
+    self.folder = folder.GetPath()
+NameError: global name 'folder' is not defined
+Traceback (most recent call last):
+  File "/home/shota/Autoware/ros/src/util/packages/runtime_manager/scripts/runtime_manager_dialog.py", line 532, in choose_folder
+    self.folder = folder.GetPath()
+NameError: global name 'folder' is not defined

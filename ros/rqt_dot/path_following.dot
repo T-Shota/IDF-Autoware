@@ -1,0 +1,363 @@
+digraph graphname {
+	graph [bb="0,0,2296,318",
+		compound=True,
+		rank=same,
+		rankdir=LR,
+		ranksep=0.2
+	];
+	node [label="\N"];
+	subgraph cluster_waypoint_marker_publisher {
+		graph [bb="1396,31,1638,106",
+			compound=True,
+			label=waypoint_marker_publisher,
+			lheight=0.21,
+			lp="1517,94.5",
+			lwidth=2.14,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__waypoint_marker_publisher		 [URL=_waypoint_marker_publisher,
+			height=0.5,
+			label="/waypoint_marker_publisher",
+			pos="1517,57",
+			shape=ellipse,
+			width=3.1233];
+	}
+	subgraph cluster_runime_manager_27258_1486198640846 {
+		graph [compound=True,
+			label=runime_manager_27258_1486198640846,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+	}
+	subgraph cluster_wf_simulator {
+		graph [bb="2150,130,2288,205",
+			compound=True,
+			label=wf_simulator,
+			lheight=0.21,
+			lp="2219,193.5",
+			lwidth=1.01,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__wf_simulator		 [URL=_wf_simulator,
+			height=0.5,
+			label="/wf_simulator",
+			pos="2219,156",
+			shape=ellipse,
+			width=1.679];
+	}
+	subgraph cluster_pure_pursuit {
+		graph [bb="1746,180,1878,255",
+			compound=True,
+			label=pure_pursuit,
+			lheight=0.21,
+			lp="1812,243.5",
+			lwidth=0.96,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__pure_pursuit		 [URL=_pure_pursuit,
+			height=0.5,
+			label="/pure_pursuit",
+			pos="1812,206",
+			shape=ellipse,
+			width=1.6068];
+	}
+	subgraph cluster_twist_filter {
+		graph [bb="1952,161,2072,236",
+			compound=True,
+			label=twist_filter,
+			lheight=0.21,
+			lp="2012,224.5",
+			lwidth=0.83,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__twist_filter		 [URL=_twist_filter,
+			height=0.5,
+			label="/twist_filter",
+			pos="2012,187",
+			shape=ellipse,
+			width=1.4443];
+	}
+	subgraph cluster_lane_rule {
+		graph [bb="308,31,416,106",
+			compound=True,
+			label=lane_rule,
+			lheight=0.21,
+			lp="362,94.5",
+			lwidth=0.71,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__lane_rule		 [URL=_lane_rule,
+			height=0.5,
+			label="/lane_rule",
+			pos="362,57",
+			shape=ellipse,
+			width=1.2818];
+	}
+	subgraph cluster_waypoint_loader {
+		graph [bb="8,25,168,100",
+			compound=True,
+			label=waypoint_loader,
+			lheight=0.21,
+			lp="88,88.5",
+			lwidth=1.26,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__waypoint_loader		 [URL=_waypoint_loader,
+			height=0.5,
+			label="/waypoint_loader",
+			pos="88,51",
+			shape=ellipse,
+			width=2.004];
+	}
+	subgraph cluster_velocity_set {
+		graph [bb="1136,180,1264,255",
+			compound=True,
+			label=velocity_set,
+			lheight=0.21,
+			lp="1200,243.5",
+			lwidth=0.92,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__velocity_set		 [URL=_velocity_set,
+			height=0.5,
+			label="/velocity_set",
+			pos="1200,206",
+			shape=ellipse,
+			width=1.5526];
+	}
+	subgraph cluster_runime_manager_27567_1486198675650 {
+		graph [compound=True,
+			label=runime_manager_27567_1486198675650,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+	}
+	subgraph cluster_lane_stop {
+		graph [bb="565,66,675,141",
+			compound=True,
+			label=lane_stop,
+			lheight=0.21,
+			lp="620,129.5",
+			lwidth=0.72,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__lane_stop		 [URL=_lane_stop,
+			height=0.5,
+			label="/lane_stop",
+			pos="620,92",
+			shape=ellipse,
+			width=1.2999];
+	}
+	subgraph cluster_runime_manager_28490_1486198827795 {
+		graph [compound=True,
+			label=runime_manager_28490_1486198827795,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+	}
+	subgraph cluster_runime_manager_28784_1486198912690 {
+		graph [compound=True,
+			label=runime_manager_28784_1486198912690,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+	}
+	subgraph cluster_ndt_matching {
+		graph [bb="550,209,690,284",
+			compound=True,
+			label=ndt_matching,
+			lheight=0.21,
+			lp="620,272.5",
+			lwidth=1.06,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__ndt_matching		 [URL=_ndt_matching,
+			height=0.5,
+			label="/ndt_matching",
+			pos="620,235",
+			shape=ellipse,
+			width=1.7151];
+	}
+	subgraph cluster_lane_select {
+		graph [bb="853,109,973,184",
+			compound=True,
+			label=lane_select,
+			lheight=0.21,
+			lp="913,172.5",
+			lwidth=0.85,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__lane_select		 [URL=_lane_select,
+			height=0.5,
+			label="/lane_select",
+			pos="913,135",
+			shape=ellipse,
+			width=1.4443];
+	}
+	subgraph cluster_path_select {
+		graph [bb="1456,180,1578,255",
+			compound=True,
+			label=path_select,
+			lheight=0.21,
+			lp="1517,243.5",
+			lwidth=0.85,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__path_select		 [URL=_path_select,
+			height=0.5,
+			label="/path_select",
+			pos="1517,206",
+			shape=ellipse,
+			width=1.4624];
+	}
+	subgraph cluster_vel_pose_mux {
+		graph [bb="840,235,986,310",
+			compound=True,
+			label=vel_pose_mux,
+			lheight=0.21,
+			lp="913,298.5",
+			lwidth=1.11,
+			rank=same,
+			rankdir=LR,
+			ranksep=0.2,
+			style=bold
+		];
+		n__vel_pose_mux		 [URL=_vel_pose_mux,
+			height=0.5,
+			label="/vel_pose_mux",
+			pos="913,261",
+			shape=ellipse,
+			width=1.8054];
+	}
+	n__pure_pursuit -> n__twist_filter	 [URL=topic_3A_twist_raw,
+		label="/twist_raw",
+		lp="1915,206.5",
+		penwidth=1,
+		pos="e,1961.5,191.75 1867.4,200.78 1893.5,198.28 1924.8,195.27 1951.5,192.71"];
+	n__twist_filter -> n__wf_simulator	 [URL=topic_3A_twist_cmd,
+		label="/twist_cmd",
+		lp="2111,184.5",
+		penwidth=1,
+		pos="e,2164.7,164.06 2060,179.89 2088.1,175.65 2124,170.21 2154.6,165.59"];
+	n__lane_rule -> n__waypoint_marker_publisher	 [URL=topic_3A_traffic_waypoints_array,
+		label="/traffic_waypoints_array",
+		lp="913,53.5",
+		penwidth=1,
+		pos="e,1410,51.452 407.83,53.907 458.92,50.653 544.93,46 619,46 619,46 619,46 1201,46 1266.8,46 1340.3,48.429 1399.8,51.004"];
+	n__lane_rule -> n__lane_stop	 [URL=topic_3A_red_waypoints_array,
+		label="/red_waypoints_array",
+		lp="483,88.5",
+		penwidth=1,
+		pos="e,575.58,86.064 405.85,62.858 449.74,68.859 518.08,78.203 565.5,84.686"];
+	n__lane_rule -> n__lane_select	 [URL=topic_3A_traffic_waypoints_array,
+		label="/traffic_waypoints_array",
+		lp="620,163.5",
+		penwidth=1,
+		pos="e,865,142.19 383,73.188 394.5,81.948 409.51,92.482 424,100 476.79,127.38 491.41,134.85 550,145 656.43,163.43 783.04,152.62 854.82,143.52"];
+	n__waypoint_loader -> n__waypoint_marker_publisher	 [URL=topic_3A_lane_waypoints_array,
+		label="/lane_waypoints_array",
+		lp="765,7.5",
+		penwidth=1,
+		pos="e,1462.2,41.198 134.71,37.064 188.37,21.964 280.28,0 361,0 361,0 361,0 1201,0 1289.2,0 1389.2,21.921 1452.4,38.575"];
+	n__waypoint_loader -> n__lane_rule	 [URL=topic_3A_lane_waypoints_array,
+		label="/lane_waypoints_array",
+		lp="238,63.5",
+		penwidth=1,
+		pos="e,315.88,56.005 160.11,52.569 205.62,53.573 263.8,54.856 305.83,55.783"];
+	n__velocity_set -> n__waypoint_marker_publisher	 [URL=topic_3A_closest_waypoint,
+		label="/closest_waypoint",
+		lp="1330,177.5",
+		penwidth=1,
+		pos="e,1480,74.042 1232.4,191.17 1288.4,164.65 1406,109.02 1470.8,78.375"];
+	n__velocity_set -> n__path_select	 [URL=topic_3A_temporal_waypoints,
+		label="/temporal_waypoints",
+		lp="1330,213.5",
+		penwidth=1,
+		pos="e,1464.2,206 1256.2,206 1311.6,206 1396.6,206 1454.2,206"];
+	n__lane_stop -> n__waypoint_marker_publisher	 [URL=topic_3A_traffic_waypoints_array,
+		label="/traffic_waypoints_array",
+		lp="1061,85.5",
+		penwidth=1,
+		pos="e,1407.4,61.247 666.61,90.216 800.71,84.972 1196.8,69.483 1397.1,61.649"];
+	n__lane_stop -> n__lane_select	 [URL=topic_3A_traffic_waypoints_array,
+		label="/traffic_waypoints_array",
+		lp="765,130.5",
+		penwidth=1,
+		pos="e,865.02,128.06 663.94,98.345 714.54,105.82 798.82,118.28 854.9,126.56"];
+	n__ndt_matching -> n__velocity_set	 [URL=topic_3A_localizer_pose,
+		label="/localizer_pose",
+		lp="913,223.5",
+		penwidth=1,
+		pos="e,1143.9,206.53 678.57,229.08 722.7,224.76 785.13,219.14 840,216 942.49,210.13 1061.7,207.68 1133.6,206.67"];
+	n__ndt_matching -> n__vel_pose_mux	 [URL=topic_3A_ndt_pose,
+		label="/ndt_pose",
+		lp="765,260.5",
+		penwidth=1,
+		pos="e,850.9,255.54 679.19,240.2 725.74,244.36 791.21,250.21 840.88,254.65"];
+	n__lane_select -> n__wf_simulator	 [URL=topic_3A_base_waypoints,
+		label="/base_waypoints",
+		lp="1692,142.5",
+		penwidth=1,
+		pos="e,2165.1,147.58 965.23,135 1022.3,135 1117.2,135 1199,135 1199,135 1199,135 2013,135 2060.8,135 2114.6,140.73 2155.1,146.2"];
+	n__lane_select -> n__velocity_set	 [URL=topic_3A_base_waypoints,
+		label="/base_waypoints",
+		lp="1061,188.5",
+		penwidth=1,
+		pos="e,1163.2,192.39 959.92,143.12 1003.5,151.25 1070.8,164.84 1128,181 1136.3,183.35 1145.1,186.15 1153.5,189.02"];
+	n__path_select -> n__pure_pursuit	 [URL=topic_3A_final_waypoints,
+		label="/final_waypoints",
+		lp="1692,213.5",
+		penwidth=1,
+		pos="e,1754.1,206 1569.7,206 1618.1,206 1690.8,206 1743.7,206"];
+	n__vel_pose_mux -> n__pure_pursuit	 [URL=topic_3A_current_pose,
+		label="/current_pose",
+		lp="1330,287.5",
+		penwidth=1,
+		pos="e,1775.9,220.09 975,266.83 1100.2,277.48 1394.7,295.77 1638,259 1682.7,252.25 1731.7,236.36 1766.2,223.73"];
+	n__vel_pose_mux -> n__velocity_set	 [URL=topic_3A_current_pose,
+		label="/current_pose",
+		lp="1061,251.5",
+		penwidth=1,
+		pos="e,1153.2,215.94 964.72,249.91 974.43,247.87 984.52,245.82 994,244 1053.3,232.61 1068.7,232.36 1128,221 1133,220.05 1138.1,219.02 1143.3,217.98"];
+}
