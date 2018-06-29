@@ -1,4 +1,17 @@
-# Autoware
+# IDF-Autoware
+
+IDF-Autoware is an integrated development framework that enables co-simulation and operation of Autoware using MATLAB/Simulink. The following functions are provided:
+
+- Communication between Autoware and MATLAB/Simulink: By using this framework, communication between Autoware and MATLAB / Simulink becomes possible.
+- Template generation: This function allows MATLAB template scripts and Simulink template models to be generated which include necessary information to create nodes for Autoware.
+- rqt_graph_autoware plugin: This plugin can render node dependency for Autoware’s applications, such as sensing, perception, decision, and planning.
+- GUI Tools (Runtime Manager for MATLAB/Simulink): With This GUI, the following functions can be execution:
+	- Starting MATLAB, Simulink, and rqt_graph_autoware
+	- Executing MATLAB scripts and Simulink models
+	- Generating MATLAB template scripts and Simulink template models
+	- Displaying node information
+
+## Autoware
 
 Integrated open-source software for urban autonomous driving. The following functions are supported:
 
@@ -30,7 +43,7 @@ Autoware is protected by BSD License. Please use it on your own responsibility. 
 
 ## Spec Recommendation
 
-- # of CPU cores: 8
+- Number of CPU cores: 8
 - RAM size: 32GB
 - Storage size: 30GB
 
@@ -54,23 +67,14 @@ Autoware is protected by BSD License. Please use it on your own responsibility. 
 
 **NOTE: Please do not install ros-indigo-velodyne-pointcloud package. Please uninstall it if you already installed.**
 
-
-### Install dependencies for Ubuntu 15.04 jade
-
-```
-% sudo apt-get install ros-jade-desktop-full ros-jade-nmea-msgs ros-jade-nmea-navsat-driver ros-jade-sound-play
-% sudo apt-get install libnlopt-dev freeglut3-dev qt5-default libqt5opengl5-dev libssh2-1-dev libarmadillo-dev libpcap-dev gksu libgl1-mesa-dev
-```
-
-**NOTE: jsk_visualization is not provided in Ubuntu15.04 Jade. Please download it from the following repository and build it by yourself.  
 https://github.com/jsk-ros-pkg/jsk_visualization**
 
 ## How to Build
 
 ```
 $ cd $HOME
-$ git clone https://github.com/CPFL/Autoware.git
-$ cd ~/Autoware/ros/src
+$ git clone https://github.com/CPFL/IDF-Autoware.git
+$ cd ~/IDF-Autoware/ros/src
 $ catkin_init_workspace
 $ cd ../
 $ ./catkin_make_release
@@ -79,20 +83,10 @@ $ ./catkin_make_release
 ## How to Start
 
 ```
-$ cd $HOME/Autoware/ros
+$ cd $HOME/IDF-Autoware/ros
 $ ./run
 ```
 
-## For Developers
-
-Be careful for changing files under `ros/src/sensing/drivers/lidar/packages/velodyne`. There is **subtree**.
-Original repository is [here](https://github.com/CPFL/velodyne). If you change those files from this
-repository, you must use **git subtree push**. (Please never change and push code if you don't understand
-`git subtree` well).
-
-## Documents
-
-See Autoware/docs. As of Aug 2015, we provide only Japanese documents. English documents will be added shortly.
 
 ## Main Packages
 
@@ -122,6 +116,22 @@ See Autoware/docs. As of Aug 2015, we provide only Japanese documents. English d
 ## Research Papers for Citation
 
 1. S. Kato, E. Takeuchi, Y. Ishiguro, Y. Ninomiya, K. Takeda, and T. Hamada. "An Open Approach to Autonomous Vehicles", IEEE Micro, Vol. 35, No. 6, pp. 60-69, 2015. [![Link](http://online.qmags.com/MIC1115/default.aspx?sessionID=7CF18C36BF00A40746B87387B&cid=3230522&eid=19656&pg=62&mode=2#pg62&mode2)](http://online.qmags.com/MIC1115/default.aspx?sessionID=7CF18C36BF00A40746B87387B&cid=3230522&eid=19656&pg=62&mode=2#pg62&mode2)
+
+## Demo Videos of IDF-Autoware
+
+### Co-simulation
+[![Public Road Demonstration](http://img.youtube.com/vi/X4d9VbXnPeg/mqdefault.jpg)](https://www.youtube.com/watch?v=X4d9VbXnPeg)
+
+### Experiment Using A Real Autonomous vehicle
+[![Public Road Demonstration](http://img.youtube.com/vi/Bd3MTIJCRws/mqdefault.jpg)](https://www.youtube.com/watch?v=Bd3MTIJCRws)
+
+## Demo Videos of Autoware
+
+### Public Road Demonstration
+[![Public Road Demonstration](http://img.youtube.com/vi/5DaQBZvZwAI/mqdefault.jpg)](https://www.youtube.com/watch?v=5DaQBZvZwAI)
+
+### Test Field Demonstration
+[![Test Field Demonstration](http://img.youtube.com/vi/zujGfJcZCpQ/mqdefault.jpg)](https://www.youtube.com/watch?v=zujGfJcZCpQ)
 
 ## Instruction Videos
 
