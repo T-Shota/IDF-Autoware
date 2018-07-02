@@ -116,7 +116,7 @@ $ ./run
 
 ## Research Papers of Autoware
 
-1. S. Kato, S. Tokunaga, Y. Maruyama, S. Maeda, M. Hirabayashi, Y. Kitsukawa, A. Monrroy, T. Ando, Y. Fujii, T. Azumi. "Autoware on Board: Enabling Autonomous Vehicles with Embedded Systems", ICCPS, 2018. [Link](http://delivery.acm.org/10.1145/3210000/3207930/p287-kato.pdf?ip=133.1.96.37&id=3207930&acc=ACTIVE%20SERVICE&key=D2341B890AD12BFE%2ED14836AB12D5DE13%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1530277695_431bf4ac4a7f3fd3c652645c1662df68)
+1. S. Kato, S. Tokunaga, Y. Maruyama, S. Maeda, M. Hirabayashi, Y. Kitsukawa, A. Monrroy, T. Ando, Y. Fujii, T. Azumi. "Autoware on Board: Enabling Autonomous Vehicles with Embedded Systems", ICCPS, 2018. [Link](https://dl.acm.org/citation.cfm?id=3207930)
 
 ## Demo Videos of IDF-Autoware
 
