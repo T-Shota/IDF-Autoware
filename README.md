@@ -114,9 +114,9 @@ $ ./run
 - waypoint_follower
 - waypoint_maker
 
-## Research Papers for Citation
+## Research Papers of Autoware
 
-1. S. Kato, E. Takeuchi, Y. Ishiguro, Y. Ninomiya, K. Takeda, and T. Hamada. "An Open Approach to Autonomous Vehicles", IEEE Micro, Vol. 35, No. 6, pp. 60-69, 2015. [![Link](http://online.qmags.com/MIC1115/default.aspx?sessionID=7CF18C36BF00A40746B87387B&cid=3230522&eid=19656&pg=62&mode=2#pg62&mode2)](http://online.qmags.com/MIC1115/default.aspx?sessionID=7CF18C36BF00A40746B87387B&cid=3230522&eid=19656&pg=62&mode=2#pg62&mode2)
+1. S. Kato, S. Tokunaga, Y. Maruyama, S. Maeda, M. Hirabayashi, Y. Kitsukawa, A. Monrroy, T. Ando, Y. Fujii, T. Azumi. "Autoware on Board: Enabling Autonomous Vehicles with Embedded Systems", ICCPS, 2018. [Link](http://delivery.acm.org/10.1145/3210000/3207930/p287-kato.pdf?ip=133.1.96.37&id=3207930&acc=ACTIVE%20SERVICE&key=D2341B890AD12BFE%2ED14836AB12D5DE13%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1530277695_431bf4ac4a7f3fd3c652645c1662df68)
 
 ## Demo Videos of IDF-Autoware
 
